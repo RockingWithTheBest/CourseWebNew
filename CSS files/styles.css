@@ -5870,5 +5870,138 @@ span.lattecafe {
 
 
 
+footer.footer {
+
+    font-family: Inter;
+}
+footer.footer {
+    max-width: 1440px;
+    color: white;
+    background: #614747;
+    height: 147px;
+}
+h10 {
+    position: relative;
+    left: 536px;
+}
+.divfooter a {
+    text-decoration: none;
+    color: white;
+}
+.divfooter {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    gap: 47px;
+}
+@media screen and (max-width: 1027px) {
+    h10 {
+        position: relative;
+        left: 413px;
+    }
+    .divfooter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 17px;
+        gap: 47px;
+    }
+}
+@media screen and (max-width: 937px) {
+    .divfooter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        gap: 47px;
+    }
+}
+@media screen and (max-width: 836px) {
+    .divfooter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 13px;
+        gap: 20px;
+    }
+    h10 {
+        position: relative;
+        left: 46px;
+    }
+}
+
+@media screen and (max-width: 754px) {
+    .divfooter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        gap: 20px;
+        top: 22px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 373px) {
+    .divfooter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 11px;
+        gap: 0px;
+        top: 22px;
+        position: relative;
+        flex-direction: column;
+    }
+    footer.footer {
+        height: 228px;
+    }
+    h10 {
+        position: relative;
+        left: 127px;
+        top: 14px;
+        text-transform: uppercase;
+    }
+}
 
 
+@media screen and (max-width: 320px){
+    h10 {
+        position: relative;
+        left: 95px;
+        top: 14px;
+        text-transform: uppercase;
+    }
+}
+
+
+@media screen and (max-width: 947px) {
+    iframe {
+        border-radius: 15px;
+        width: 639px;
+    }
+}
+
+@media screen and (max-width: 652px) {
+    iframe {
+        border-radius: 15px;
+        width: 427px;
+    }
+}
+@media screen and (max-width: 444px) {
+    iframe {
+        border-radius: 15px;
+        width: 313px;
+        height: 272px;
+    }
+}
+
+@media screen and (max-width: 334px) {
+    iframe {
+        border-radius: 15px;
+        width: 242px;
+        height: 200px;
+    }
+}
