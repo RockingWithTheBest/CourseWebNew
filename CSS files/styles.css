@@ -4486,9 +4486,9 @@ footer.footer {
     
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 766px){
     img.sitting {
-        width: 192px;
+        width: 568px;
         position: relative;
         top: -53px;
         left: 2px;
@@ -4499,25 +4499,26 @@ footer.footer {
         top: 55px;
     }
     .Container1 {
-        height: 160px;
+        height: 302px;
     }
 
-a.menfirst {
-    position: relative;
-    left: -11px;
-}
+    a.menfirst {
+        position: relative;
+        left: -11px;
+        top: -12px;
+    }
 .helpmenu {
     font-size: 6px;
 }
 a.mensecond {
     position: relative;
     left: -11px;
-    top: 3px;
+    top: -23px;
 }
 a.menfourth {
     position: relative;
     left: -10px;
-    top: 7px;
+    top: -41px;
 }
 #russianlang {
     position: relative;
@@ -4560,29 +4561,42 @@ img.buymecoffee {
     border-radius: 21px;
     cursor: pointer;
     font-family: inherit;
-    left: -241px;
-    top: 8px;
+    left: -225px;
+    top: 74px;
     position: relative;
 }
 .instagram {
     position: relative;
-    left: -235px;
-    top: 12px;
+    left: -217px;
+    top: 81px;
 }
 .book {
     position: relative;
-    left: -244px;
-    top: 22px;
+    left: -222px;
+    top: 81px;
 }
 .messenger {
     position: relative;
-    left: -221px;
-    top: 22px;
+    left: -228px;
+    top: 81px;
+}
+img.ip, img.fcp, img.mesp {
+    width: 8px;
 }
 a.menuthird {
     position: relative;
     left: -10px;
-    top: 5px;
+    top: -33px;
+}
+.userlogin {
+    position: relative;
+    left: -134px;
+    top: 68px;
+}
+.coffepurchase {
+    position: relative;
+    left: -109px;
+    top: 56px;
 }
 .burger-icon {
     width: 7px;
@@ -4615,16 +4629,19 @@ a.menuthird {
     background-color: #514c4c;
     transition: width 0.5s ease;
     overflow: hidden;
-    left: -256px;
+    left: -412px;
     position: relative;
-    top: 10px;
+
+}
+.helpmenu {
+    font-size: 10px;
 }
 .collect.open {
-    width: 47px;
+    width: 79px;
     height: 93px;
     position: absolute;
-    top: 9px;
-    left: -192px;
+    top: 8px;
+    left: 8px;
 }
 
 .Menu1 {
