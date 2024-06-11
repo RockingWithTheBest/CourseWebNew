@@ -2348,7 +2348,18 @@ header.Mains {
     }
 
 }
-@media screen and (max-width: 750px){
+
+@media screen and (max-width: 794px){
+    .discussion {
+        left: 12px;
+        top: 43px;
+        font-size: 23px;
+        font-family: Inter;
+        color: #222222;
+        position: relative;
+    }
+}
+/* @media screen and (max-width: 750px){
     .discussion {
         left: 12px;
         top: 43px;
@@ -2365,8 +2376,29 @@ header.Mains {
         color: #222222;
         font-family: Azeret Mono;
     }   
+} */
+@media screen and (max-width: 684px){
+    .discussion {
+        left: 12px;
+        top: 43px;
+        font-size: 21px;
+        font-family: Inter;
+        color: #222222;
+        position: relative;
+    }
+    #Container2 {
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        max-width: 1440px;
+        align-items: center;
+        border: 2px solid black;
+        height: 244px;
+        background-color: darkgrey;
+    }
 }
-@media screen and (max-width: 620px){
+
+@media screen and (max-width: 636px){
     .discussion {
         left: 12px;
         top: 43px;
@@ -2396,7 +2428,10 @@ header.Mains {
         top: -90px;
     }
 }
-@media screen and (max-width:520px){ 
+@media screen and (max-width: 636px){
+
+}
+@media screen and (max-width:555px){ 
     .discussion {
         left: 12px;
         top: 43px;
@@ -2445,10 +2480,21 @@ header.Mains {
         background-color: darkgrey;
     }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 404px){
+    #Container2 {
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        max-width: 1440px;
+        align-items: center;
+        border: 2px solid black;
+        height: 181px;
+        line-height: 24px;
+        background-color: darkgrey;
+    }   
     .discussion {
         left: 12px;
-        top: 43px;
+        top: 22px;
         font-size: 12px;
         font-family: Inter;
         color: #222222;
@@ -2463,11 +2509,12 @@ header.Mains {
     }
     .discussion {
         left: 12px;
-        top: 43px;
+        top: 11px;
         font-size: 10px;
         font-family: Inter;
         color: #222222;
         position: relative;
+        line-height: 18px;
     }
     p.three-p {
         left: -1px;
@@ -2491,6 +2538,7 @@ header.Mains {
     }
 
 }
+
 @media screen and (max-width : 300px){
     .headi {
         top: 24px;
@@ -4971,6 +5019,33 @@ span.lattecafe {
         font-size: 7px;
     }
 }
+@media screen and (max-width: 367px) {
+    .collect.open {
+        width: 56px;
+        height: 124px;
+        position: absolute;
+        top: -7px;
+        left: -135px;
+    }
+    .collect {
+        left: -128px;
+        position: absolute;
+        top: -7px;
+    }
+    img.sitting {
+        width: 284px;
+        position: relative;
+        top: -77px;
+        left: 2px;
+        object-fit: fill;
+    }
+    span.lattecafe {
+        position: relative;
+        top: -37px;
+        left: 26px;
+        font-size: 27px;
+    }
+}
 
 @media screen and (max-width: 320px){
     span.avocado {
@@ -4979,6 +5054,11 @@ span.lattecafe {
         font-weight: 900;
         left: 218px;
         position: relative;
+    }
+    .dropdown {
+        position: relative;
+        margin-top: 21px;
+        left: 0px;
     }
     span.tenty {
         position: relative;
