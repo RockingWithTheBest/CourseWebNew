@@ -78,7 +78,7 @@ carousel.addEventListener("scroll", infiniteScroll);
 
 
 
-const imgEx = document.querySelector("#imgEx");
+const imgEx = document.querySelector(".ex-catalog");
 imgEx.addEventListener("click", () =>{
     window.history.back(); 
 });

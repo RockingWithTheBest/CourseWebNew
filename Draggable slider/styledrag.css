@@ -20,6 +20,13 @@ body{
     min-height: 100vh;
     background: linear-gradient(to left top, #031A9A, #8B53FF);
     padding: 0 35px;
+    flex-direction: column-reverse;
+}
+button.ex-catalog {
+    border-radius: 40px;
+    border: 2px white;
+    position: relative;
+    top: 28px;
 }
 .card h2{
     font-weight: 500;
@@ -146,30 +153,3 @@ img.exit {
 }
 
 
-@media screen and (max-width: 1024px) {
-    div#imgEx {
-        position: relative;
-        top: 209px;
-        background: white;
-        border-radius: 4px;
-        left: 506px;
-        width: 152px;
-    }
-}
-
-@media screen and (max-width: 390px) {
-    div#imgEx {
-        position: relative;
-        top: 209px;
-        background: white;
-        border-radius: 4px;
-        left: 155px;
-        width: 152px;
-    }
-    #wrapper {
-        left: -53px;
-        max-width: 1100px;
-        width: 100%;
-        position: relative;
-    }
-}
