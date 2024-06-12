@@ -171,4 +171,12 @@ img.exit {
 
 }
 
+@media screen and (max-width:  525px) {
+    .carousel .card {
+        height: 291px;
+    
+}
+    
+}
+
 
