@@ -76,24 +76,9 @@ carousel.addEventListener("scroll", infiniteScroll);
 
 
 
-const btn1 = document.getElementById("btn1");
-const displayUrl = document.querySelector("#wrapper");
-const exitUrl = document.querySelector("#imgEx");
-// displayUrl.classList.add("hidden");
-// exitUrl.classList.add("hidden");
 
-// btn1.addEventListener( "click",()=>{
-//     console.log("click");
-//     const displayUrl = document.querySelector("#wrapper");
-//     const buttondissappear = document.querySelector(".menubtn")
-//     displayUrl.classList.remove("hidden");
-//     exitUrl.classList.remove("hidden");
-//     buttondissappear.classList.add("hidden");
-// });
 
-const exitcatalog = document.querySelector("#imgEx");
-exitcatalog.addEventListener( "click",()=>{
-    displayUrl.classList.add("hidden");
-    document.querySelector(".menubtn").classList.remove("hidden");
-    exitUrl.classList.add("hidden");
+const imgEx = document.querySelector("#imgEx");
+imgEx.addEventListener("click", () =>{
+    window.history.back(); 
 });
