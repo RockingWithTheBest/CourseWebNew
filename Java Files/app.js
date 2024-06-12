@@ -145,7 +145,11 @@ let btn = document.getElementById("btn");
         const resetbtn = document.querySelector('.resetbtn');
         const closebtn = document.querySelector('.closebtn')
 
-       
+       const contactme = document.querySelector(".footecontactme");
+       const footeremail = document.querySelector(".footeremail");
+       const footerphone = document.querySelector(".footerphonenumber");
+       const footeraddress = document.querySelector(".footerlocation");
+       const footergitHub = document.querySelector(".footergitHub");
 
        
         
@@ -158,6 +162,13 @@ let btn = document.getElementById("btn");
                 el.classList.add('active-lang');             
 
                 const langAttr = el.getAttribute('language');
+                contactme.textContent = footerArrays[langAttr].footecontactme;
+                footeremail.textContent = footerArrays[langAttr].footeremail;
+                footerphone.textContent = footerArrays[langAttr].footerphonenumber;
+                footeraddress.textContent = footerArrays[langAttr].footerlocation;
+                footergitHub.textContent = footerArrays[langAttr].footergitHub;
+
+
                 infoname.textContent = UserInformation[langAttr].fullnamesLS;
                 userinfo.textContent = UserInformation[langAttr].userinformation;
                 infopass.textContent = UserInformation[langAttr].passwordLS;
@@ -290,6 +301,23 @@ let btn = document.getElementById("btn");
             })
         });
         
+        var footerArrays = {
+            "russian":{
+                "footecontactme":"Наш контакт :",
+                "footeremail":"Эл.Почта :",
+                "footerphonenumber":"Номер телефона :",
+                "footerlocation":"Местоположение :",
+                "footergitHub":"Гитхаб :"
+            },
+            "english":{
+                "footecontactme":"Contact Us :",
+                "footeremail":"Email :",
+                "footerphonenumber":"Phone :",
+                "footerlocation":"Location :",
+                "footergitHub":"GitHub :"
+            }
+        };
+
         var UserInformation ={
             "russian":{
                 "userinformation":"Информация о пользователе",
