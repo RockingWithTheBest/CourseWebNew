@@ -30,13 +30,13 @@ span.lic {
 }
 div#imgEx {
     position: relative;
-    top: -45px;
+    top: 34px;
     border: 2px solid white;
     width: 96px;
     height: 52px;
     border-radius: 16px;
     background: white;
-    left: 164px;
+    left: 498px;
     margin-bottom: -39px;
     cursor: pointer;
 }
@@ -4119,343 +4119,6 @@ header.Mains {
     }
 }
 
-/* @media screen and (max-width: 390px){
-    .Cafe-Menu {
-        position: relative;
-        top: 120px;
-        left: 120px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    #Container3 {
-        background-color: #E9E9E3;
-        height: 1634px;
-        max-width: 1440px;
-        display: flex;
-        justify-content: space-around;
-    }
-    .cafeM2 {
-        position: relative;
-        font-size: 11px;
-        line-height: 27px;
-        font-family: Inter;
-        font-weight: 400;
-        margin-bottom: -25px;
-    }
-    
-    .cafeM1 {
-        color: #6F6F64;
-        font-size: 17px;
-        font-weight: 700;
-        font-family: Azeret Mono;
-        margin-bottom: -97px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        top: 14px;
-    }
-  .listone {
-        left: -323px;
-        width: 357px;
-        position: relative;
-        height: 998px;
-        background-color: #E9E9E3;
-    }
-    h4.headerOrder {
-        font-family: Inter;
-        font-size: 34px;
-        top: 45px;
-        position: relative;
-        left: 572px;
-    }
-    span.newyork {
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 900;
-        position: relative;
-        top: 23px;
-        left: 241px;
-    }
-    p.fiddlehands {
-        top: 14px;
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 500;
-        position: relative;
-        left: 150px;
-    }
-    span.sixtyThree {
-        font-style: italic;
-        position: relative;
-        left: 280px;
-    }
-    span.rosemary {
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 900;
-        top: 38px;
-        position: relative;
-        left: 213px;
-    }
-    .divider1 {
-        position: relative;
-        top: 63px;
-        left: 466px;
-    }
-    .divider2 {
-        position: relative;
-        top: 127px;
-        left: 422px;
-    }
-    .divider11 {
-        position: relative;
-        top: 16px;
-        left: 51px;
-    }
-    span.avocado {
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 900;
-        left: 144px;
-        position: relative;
-    }
-    p.saratoga {
-        position: relative;
-        top: -10px;
-        left: 54px;
-        font-family: Inter;
-        font-size: 13px;
-        font-weight: 500;
-    }
-  
-    span.tenty {
-        position: relative;
-        top: -20px;
-        font-style: italic;
-        left: 179px;
-    }
-    span.rocket {
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 900;
-        position: relative;
-        top: 13px;
-        left: 113px;
-    }
-    p.smoked {
-        font-family: Inter;
-        font-size: 13px;
-        font-weight: 500;
-        position: relative;
-        top: 2px;
-        left: 49px;
-    }
-    span.pepe {
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 900;
-        top: 24px;
-        position: relative;
-        left: 117px;
-    }
-    p.spaghetti {
-        position: relative;
-        left: 50px;
-    }
-    p.toast {
-        font-family: Inter;
-        font-size: 13px;
-        font-weight: 500;
-        position: relative;
-        top: 25px;
-        left: 61px;
-    }
-   
-    span.twentyThree {
-        font-style: italic;
-        position: relative;
-        left: 176px;
-        top: 3px;
-    }
-    span.eighteen {
-        font-style: italic;
-        position: relative;
-        top: -9px;
-        left: 178px;
-    }
-    span.lobster {
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 900;
-        position: relative;
-        top: 36px;
-        left: 121px;
-    }
-    p.toast {
-        font-family: Inter;
-        font-size: 13px;
-        font-weight: 500;
-        position: relative;
-        top: 25px;
-        left: 58px;
-    }
-
-    span.fourtyTwo {
-        font-style: italic;
-        position: relative;
-        left: 177px;
-        top: 13px;
-    }
-    p.sauce {
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 500;
-        position: relative;
-        top: 27px;
-        left: 149px;
-    }
-    span.fourtySix {
-        font-style: italic;
-        position: relative;
-        top: 15px;
-        left: 281px;
-    }
-    span.sea {
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 900;
-        top: 51px;
-        position: relative;
-        left: 211px;
-    }
-    p.whitegreen {
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 500;
-        position: relative;
-        top: 40px;
-        left: 146px;
-    }
-    span.lemon {
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 500;
-        position: relative;
-        top: 8px;
-        left: 217px;
-    }
-    span.fourtyEight {
-        font-style: italic;
-        position: relative;
-        top: 50px;
-        left: 185px;
-    }
-    span.chcikenDuck {
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 900;
-        position: relative;
-        top: 84px;
-        left: 107px;
-    }
-    p.yukon {
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 500;
-        top: 73px;
-        position: relative;
-        left: 143px;
-    }
-    span.fiftySix {
-        font-style: italic;
-        position: relative;
-        top: 63px;
-        left: 280px;
-    }
-    span.month {
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 900;
-        position: relative;
-        top: 99px;
-        left: 202px;
-    }
-    p.greenBeans {
-        font-family: Inter;
-        font-weight: 500;
-        position: relative;
-        top: 87px;
-        left: 145px;
-        font-size: 14px;
-    }
-    span.fourtyThree {
-        font-style: italic;
-        position: relative;
-        top: 76px;
-        left: 278px;
-    }
-    header.Entres {
-        font-family: Azeret Mono;
-        font-size: 22px;
-        top: -5px;
-        font-weight: bold;
-        position: relative;
-        left: 110px;
-    }
-    button.foodmenu {
-        width: 112px;
-        height: 39px;
-        font-family: Inter;
-        text-align: center;
-        border-color: #6F6F64;
-        background-color: #6F6F64;
-        color: #FFFFFF;
-        font-size: 15px;
-        cursor: pointer;
-    }
-    .button1 {
-        left: 1px;
-        position: relative;
-        top: -19px;
-        cursor: pointer;
-    }
-
-    button.drinkmenu {
-        cursor: pointer;
-        color: #6F6F64;
-        font-size: 15px;
-        font-family: Inter;
-        font-weight: 400;
-        width: 112px;
-        height: 39px;
-    }
-    .button2 {
-        position: relative;
-        top: -7px;
-        left: 1px;
-        cursor: pointer;
-    }
-    .button3 {
-        left: 1px;
-        position: relative;
-        top: 6px;
-        cursor: pointer;
-    }
-   
-
-    button.takeaway {
-        cursor: pointer;
-        height: 58px;
-        width: 114px;
-        font-size: 16px;
-        font-weight: 400;
-        font-family: Inter;
-        color: #6F6F64;
-    }
-    
-} */
 
 
 
@@ -5962,3 +5625,31 @@ h10 {
         height: 200px;
     }
 }
+
+
+ @media screen and (max-width: 1168px) {
+    .carousel .card {
+        width: 289px;
+        height: 316px;
+        list-style: none;
+        background: white;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        padding-bottom: 15px;
+        justify-content: center;
+        flex-direction: column;
+    }
+ }
+ @media screen and (max-width: 1158px){
+    #wrapper .carousel {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: calc((100% / 3) - 12px);
+        overflow-x: auto;
+        gap: 21px;
+        overflow: hidden;
+        scroll-behavior: smooth;
+    }
+ }

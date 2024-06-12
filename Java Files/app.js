@@ -1453,28 +1453,28 @@ cancelOrderButton.addEventListener('click',() =>{
 //  const container6 = document.querySelector('.container66');
 //  const container7 = document.querySelector('.container77');
 //  const container8 = document.querySelector('.container88');
- fooodMenuBtn.addEventListener( "click",()=>{
-    console.log("food menu");
-    const catalogMain = document.querySelector("#bodyCata");
-    const catalog1 = document.querySelector("#Catalog1");
-    const wrapper = document.querySelector("#wrapper");
+//  fooodMenuBtn.addEventListener( "click",()=>{
+//     console.log("food menu");
+//     const catalogMain = document.querySelector("#bodyCata");
+//     const catalog1 = document.querySelector("#Catalog1");
+//     const wrapper = document.querySelector("#wrapper");
     
 
-    catalogMain.classList.remove("hidden");
-    catalog1.classList.remove("hidden");
-    wrapper.classList.remove("hidden");
-    catalogMain.style.display = "flex";
+//     catalogMain.classList.remove("hidden");
+//     catalog1.classList.remove("hidden");
+//     wrapper.classList.remove("hidden");
+//     catalogMain.style.display = "flex";
 
-    container1.classList.add('hidden');
-    container2.classList.add('hidden');
-    container3.classList.add('hidden');
-    container4.classList.add('hidden');
-    container5.classList.add('hidden');
-    container6.classList.add('hidden');
-    container7.classList.add('hidden');
-    container8.classList.add('hidden'); 
+//     container1.classList.add('hidden');
+//     container2.classList.add('hidden');
+//     container3.classList.add('hidden');
+//     container4.classList.add('hidden');
+//     container5.classList.add('hidden');
+//     container6.classList.add('hidden');
+//     container7.classList.add('hidden');
+//     container8.classList.add('hidden'); 
 
- });
+//  });
 
 
 
