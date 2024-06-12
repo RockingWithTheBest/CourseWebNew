@@ -550,6 +550,14 @@ div#container {
     background-color: var(--background-color);
     color: var(--text-color);
 } 
+.dark-theme .footer{
+    --background-color: #000;
+    --text-color:white;
+    --title-color: white;
+    background-color: var(--background-color);
+    color: var(--text-color);
+} 
+
 .dark-theme #coffee{
     --background-color: #000;
     --text-color:white;
@@ -4626,20 +4634,27 @@ footer.footer {
     max-width: 1440px;
     color: white;
     background: #614747;
+    text-decoration: none;
+}
+.divfooter a{
+    text-decoration: none;
+    color: white ;
 }
 .divfooter {
+   
+    line-height: 0px;
     display: flex;
-    gap: 13px;
     align-items: center;
     justify-content: center;
     font-size: 19px;
+    flex-direction: column;
 }
 
 @media  screen and (max-width: 460px) {
     .divfooter {
-        display: block;
 
-        font-size: 19px;
+
+        font-size: 15px;
     }
 }
     
@@ -5888,7 +5903,7 @@ footer.footer {
 
     font-family: Inter;
 }
-footer.footer {
+/* footer.footer {
     max-width: 1440px;
     color: white;
     background: #614747;
@@ -5904,91 +5919,19 @@ h10 {
 }
 .divfooter {
     display: flex;
-    gap: 13px;
+
     align-items: center;
     justify-content: center;
     font-size: 19px;
     gap: 47px;
-}
-@media screen and (max-width: 1027px) {
-    h10 {
-        position: relative;
-        left: 413px;
-    }
-    .divfooter {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 17px;
-        gap: 47px;
-    }
-}
-@media screen and (max-width: 937px) {
-    .divfooter {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 15px;
-        gap: 47px;
-    }
-}
-@media screen and (max-width: 836px) {
-    .divfooter {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 13px;
-        gap: 20px;
-    }
-    h10 {
-        position: relative;
-        left: 46px;
-    }
-}
-
-@media screen and (max-width: 754px) {
-    .divfooter {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 14px;
-        gap: 20px;
-        top: 22px;
-        position: relative;
-    }
-}
-
-@media screen and (max-width: 373px) {
-    .divfooter {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 11px;
-        gap: 0px;
-        top: 22px;
-        position: relative;
-        flex-direction: column;
-    }
-    footer.footer {
-        height: 228px;
-    }
-    h10 {
-        position: relative;
-        left: 127px;
-        top: 14px;
-        text-transform: uppercase;
-    }
-}
+} */
 
 
-@media screen and (max-width: 320px){
-    h10 {
-        position: relative;
-        left: 95px;
-        top: 14px;
-        text-transform: uppercase;
-    }
-}
+
+
+
+
+
 
 
 @media screen and (max-width: 947px) {

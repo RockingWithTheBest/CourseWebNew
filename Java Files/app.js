@@ -24,12 +24,14 @@ if (storedTheme === 'dark') {
   document.querySelector(".modal").classList.add("dark-theme");
   document.querySelector("#coffee").classList.add("dark-theme");
   document.querySelector(".later-header").classList.add("dark-theme");
+  document.querySelector(".footer").classList.add("dark-theme");
 } else {
   document.querySelector(".Wrapper").classList.remove("dark-theme");
   document.querySelector("#container").classList.remove("dark-theme");
   document.querySelector(".modal").classList.remove("dark-theme");
   document.querySelector("#coffee").classList.remove("dark-theme");
   document.querySelector(".later-header").classList.remove("dark-theme");
+  document.querySelector(".footer").classList.remove("dark-theme");
 }
 
 btn.onclick = function() {
@@ -38,6 +40,7 @@ btn.onclick = function() {
   document.querySelector(".modal").classList.toggle("dark-theme");
   document.querySelector("#coffee").classList.toggle("dark-theme");
   document.querySelector(".later-header").classList.toggle("dark-theme");
+  document.querySelector(".footer").classList.toggle("dark-theme");
 
   let currentTheme;
   if (document.querySelector(".Wrapper").classList.contains('dark-theme')) {
