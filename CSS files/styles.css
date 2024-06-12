@@ -380,7 +380,7 @@ input#extra  {
     position: relative;
     left: 29px;
 }
-label.form-Labels {
+label.formLabels {
     position: relative;
     left: -17px;
     font-size: 17px;
@@ -434,7 +434,7 @@ button:hover{
     cursor: pointer;
     
 }
-.place-order {
+.placeorder {
     color: white;
     height: 37px;
     border-radius: 18px;
@@ -550,6 +550,20 @@ div#container {
     background-color: var(--background-color);
     color: var(--text-color);
 } 
+.dark-theme #coffee{
+    --background-color: #000;
+    --text-color:white;
+    --title-color: white;
+    background-color: var(--background-color);
+    color: var(--text-color);
+} 
+.dark-theme .later-header{
+    --background-color: #000;
+    --text-color:white;
+    --title-color: white;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}  
 img.buymecoffee {
     left: -97px;
     width: 29px;

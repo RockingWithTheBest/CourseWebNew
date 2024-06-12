@@ -476,11 +476,11 @@
         
         <div class="modal-content">
             <h12 class = "userinformation">User Information</h12>
-            <p class ="fullnamesLS">Full Name : <span id="modal-full-name"></span></p>
-            <p class ="passwordLS">Password : <span id="modal-password"></span></p>
-            <p class ="modalemailLS">Email : <span id="modal-email"></span></p>
-            <p class ="contactLS">Phone Contact : <span id="modal-contact"></span></p>
-            <p class ="birthdayLS">Birthday : <span id="modal-birthday"></span></p>
+            <p class ="fullnamesLS">Full Name : <div><span id="modal-full-name" class = ></span></div></p>
+            <p class ="passwordLS">Password : <div><span id="modal-password"></span></div></p>
+            <p class ="modalemailLS">Email : <div><span id="modal-email"></span></div></p>
+            <p class ="contactLS">Phone Contact : <div><span id="modal-contact"></span></div></p>
+            <p class ="birthdayLS">Birthday : <div><span id="modal-birthday"></span></div></p>
             <button id="reset-btn" class="resetbtn">Reset</button>
             <button id="close-btn" class="closebtn">Close</button>
         </div>
@@ -499,40 +499,40 @@
         </div>
         <div class="order-form">
             <form id = "order-form" class = "form">
-                <h1>Coffee Order's</h1>
+                <h1 class = " coffeeorder">Coffee Order's</h1>
                 <div>
-                    <label class = "form-Labels" id ="drinks">Drink's :</label>
+                    <label class = "drink" class = "formLabels" id ="drinks">Drink's :</label>
                     <select name="drink" id="drink">
-                        <option value ="" selected hidden>Select a drink</option>
-                        <option value="americano">Americano</option>
-                        <option value="latte">Mocha</option>
-                        <option value="cappuccino">Cappuccino</option>
-                        <option value="espresso">Espresso</option>
+                        <option value ="" selected hidden class ="selectdrink">Select a drink</option>
+                        <option value="americano" class = "americano">Americano</option>
+                        <option value="latte" class = "mocha">Mocha</option>
+                        <option value="cappuccino" class = "cappuccino">Cappuccino</option>
+                        <option value="espresso" class = "espresso">Espresso</option>
                     </select>
                 </div>
                 <div>
-                    <label class = "form-Labels"  id ="size" >Size :</label>
+                    <label class = "size" class = "formLabels"  id ="size" >Size :</label>
                     <select  name="size" id="size">
-                        <option value ="" selected hidden>Select size</option>
-                        <option value="americano">Small</option>
-                        <option value="latte">Medium</option>
-                        <option value="cappuccino">Regular</option>
+                        <option value ="" selected hidden class = "selectsize">Select size</option>
+                        <option value="americano" class = "smallsize">Small</option>
+                        <option value="latte" class = "mediumsize">Medium</option>
+                        <option value="cappuccino" class = "regularsize">Regular</option>
                     </select>
                 </div>
                 <div>
-                    <label class = "form-Labels" >Extra's :</label>
+                    <label class = "extra" class = "form-Labels" >Extra's :</label>
                     <input type="text" id="extra" placeholder="Any extra e.g cinomon, honey, syrup e.t.c">
                 </div>
                 <div>
-                    <label class = "form-Labels" >Names :</label>
+                    <label class = "name" class = "form-Labels" >Names :</label>
                     <input type="text" id="name" placeholder="Names">
                 </div>
                 <div>
-                    <label class = "form-Labels" >Email :</label>
+                    <label class = "emails" class = "form-Labels" >Email :</label>
                     <input type="email" id="email" placeholder="Enter you email address">
                 </div>
                 <div>
-                    <button class = "place-order">Place Order</button>
+                    <button class = "placeorder">Place Order</button>
                 </div>
     
              

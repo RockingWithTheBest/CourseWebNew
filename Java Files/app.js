@@ -16,11 +16,38 @@ document.querySelector('.user').addEventListener('click',()=>{
 
 
 let btn = document.getElementById("btn");
-        btn.onclick = function(){
-            document.querySelector(".Wrapper").classList.toggle("dark-theme");
-            document.querySelector("#container").classList.toggle("dark-theme");
-            document.querySelector(".modal").classList.toggle("dark-theme");
-        }
+const storedTheme = localStorage.getItem('theme');
+
+if (storedTheme === 'dark') {
+  document.querySelector(".Wrapper").classList.add("dark-theme");
+  document.querySelector("#container").classList.add("dark-theme");
+  document.querySelector(".modal").classList.add("dark-theme");
+  document.querySelector("#coffee").classList.add("dark-theme");
+  document.querySelector(".later-header").classList.add("dark-theme");
+} else {
+  document.querySelector(".Wrapper").classList.remove("dark-theme");
+  document.querySelector("#container").classList.remove("dark-theme");
+  document.querySelector(".modal").classList.remove("dark-theme");
+  document.querySelector("#coffee").classList.remove("dark-theme");
+  document.querySelector(".later-header").classList.remove("dark-theme");
+}
+
+btn.onclick = function() {
+  document.querySelector(".Wrapper").classList.toggle("dark-theme");
+  document.querySelector("#container").classList.toggle("dark-theme");
+  document.querySelector(".modal").classList.toggle("dark-theme");
+  document.querySelector("#coffee").classList.toggle("dark-theme");
+  document.querySelector(".later-header").classList.toggle("dark-theme");
+
+  let currentTheme;
+  if (document.querySelector(".Wrapper").classList.contains('dark-theme')) {
+    currentTheme = 'dark';
+  } else {
+    currentTheme = 'light';
+  }
+
+  localStorage.setItem('theme', currentTheme);
+}
       
 
         const langEl = document.querySelector('.langWrap');
@@ -158,9 +185,24 @@ let btn = document.getElementById("btn");
        const namelang = document.querySelector(".forlanguageUSer");
        const   passwordlang = document.querySelector(".passwordlang");
        const submitlang = document.querySelector(".confirmMiddlebtn");
-                
 
-
+       const coffeeorderlang = document.querySelector(".coffeeorder");
+       const drinkorderlang = document.querySelector(".drink");
+       const selectdrinkorderlang = document.querySelector(".selectdrink");
+       const americanoorderlang = document.querySelector(".americano");
+       const mocha =document.querySelector(".mocha");
+       const cappuccino = document.querySelector(".cappuccino");
+       const espresso = document.querySelector(".espresso");
+       const size = document.querySelector(".size");     
+        const selectsize = document.querySelector(".selectsize");
+        const smallsize = document.querySelector(".smallsize");
+        const mediumsize = document.querySelector(".mediumsize");
+        const extra = document.querySelector(".extra");
+        const name1 = document.querySelector(".name");
+         const placeorder = document.querySelector(".placeorder");
+        const emails = document.querySelector(".emails");
+        const regularsize = document.querySelector(".regularsize"); 
+       
     
         langLink.forEach(el =>{
             el.addEventListener('click', () =>{
@@ -168,6 +210,27 @@ let btn = document.getElementById("btn");
                 el.classList.add('active-lang');             
 
                 const langAttr = el.getAttribute('language');
+
+                coffeeorderlang.textContent = ordeformMassive[langAttr].coffeeorder;
+                drinkorderlang.textContent = ordeformMassive[langAttr].drink;
+                selectdrinkorderlang.textContent = ordeformMassive[langAttr].selectdrink;
+                americanoorderlang.textContent = ordeformMassive[langAttr].americano;
+                mocha.textContent = ordeformMassive[langAttr].mocha;
+                cappuccino.textContent = ordeformMassive[langAttr].cappuccino;
+                espresso.textContent = ordeformMassive[langAttr].espresso;
+                size.textContent = ordeformMassive[langAttr].size;
+                selectsize.textContent = ordeformMassive[langAttr].selectsize;
+                smallsize.textContent = ordeformMassive[langAttr].smallsize;
+                mediumsize.textContent = ordeformMassive[langAttr].mediumsize;
+                extra.textContent = ordeformMassive[langAttr].extra;
+                name1.textContent = ordeformMassive[langAttr].name;
+                placeorder.textContent = ordeformMassive[langAttr].placeorder;
+                emails.textContent = ordeformMassive[langAttr].emails;
+                regularsize.textContent = ordeformMassive[langAttr].regularsize;
+
+
+
+
 
                 confirmlaang.textContent = confirmationForm[langAttr].confirmationheader;
                 namelang.textContent = confirmationForm[langAttr].forlanguageUSer;
@@ -313,6 +376,44 @@ let btn = document.getElementById("btn");
 
             })
         });
+        var ordeformMassive = {
+            "russian" :{
+                "coffeeorder":"Заказать Кофе",
+                "drink":"Кофе :",
+                "selectdrink":"Выберите кофе",
+                "americano":"Американо",
+                "mocha":"Моча",
+                "cappuccino":"Капучино",
+                "espresso":"Экспрессо",
+                "size":"Размер :",
+                "selectsize":"Выберите размер",
+                "smallsize":"Маленькое",
+                "mediumsize":"Средное",
+                "extra":"Дополнительные :",
+                "name":"Имя :",
+                "placeorder":"Заказать",
+                "emails":"Эл.Почта :",
+                "regularsize":"Обычное "
+            },
+            "english" :{
+                "coffeeorder":"Coffee Order's",
+                "drink":"Drink's :",
+                "selectdrink":"Select a drink",
+                "americano":"Americano",
+                "mocha":"Mocha",
+                "cappuccino":"Cappuccino",
+                "espresso":"Espresso",
+                "size":"Size :",
+                "selectsize":"Select size",
+                "smallsize":"Small",
+                "mediumsize":"Medium",
+                "extra":"Extra's :",
+                "name":"Names :",
+                "placeorder":"",
+                "emails":"Place Order",
+                "regularsize":"Regular"
+            }
+        }
         var confirmationForm = {
             "russian" : {
                 "confirmationheader":"Подтверждение",
