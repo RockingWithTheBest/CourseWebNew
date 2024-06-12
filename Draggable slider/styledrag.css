@@ -151,6 +151,12 @@ button {
 img.exit {
     width: 45px;
 }
+.ex-catalog:hover{
+    color: white;
+    border-color:  2px solid white;
+    background-color: rgb(15, 147, 156);
+    cursor: pointer;
+}
 
 @media screen and (max-width: 500px) {
     #wrapper {
