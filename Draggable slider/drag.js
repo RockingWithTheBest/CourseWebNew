@@ -80,5 +80,5 @@ carousel.addEventListener("scroll", infiniteScroll);
 
 const imgEx = document.querySelector("#imgEx");
 imgEx.addEventListener("click", () =>{
-window.history.back(); 
+    window.history.back(); 
 });
