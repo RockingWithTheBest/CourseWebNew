@@ -152,4 +152,17 @@ img.exit {
     width: 45px;
 }
 
+@media screen and (max-width: 500px) {
+    #wrapper {
+        max-width: 1100px;
+        width: 100%;
+        position: relative;
+    }
+    .carousel .card {
+        height: 284px;
+
+    }
+
+}
+
 
