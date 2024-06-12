@@ -32,6 +32,9 @@ let btn = document.getElementById("btn");
         const DesciptLang5= document.querySelector('.fifth-p');
         const titleLang= document.querySelector('.headi');
 
+
+
+
         const langMenutitle = document.querySelector('.menubtn');
         const langMenu1= document.querySelector('.decript1');
         const langMenu2= document.querySelector('.descript2');
@@ -151,8 +154,11 @@ let btn = document.getElementById("btn");
        const footeraddress = document.querySelector(".footerlocation");
        const footergitHub = document.querySelector(".footergitHub");
 
-       
-        
+       const confirmlaang = document.querySelector(".confirmationheader");
+       const namelang = document.querySelector(".forlanguageUSer");
+       const   passwordlang = document.querySelector(".passwordlang");
+       const submitlang = document.querySelector(".confirmMiddlebtn");
+                
 
 
     
@@ -162,6 +168,13 @@ let btn = document.getElementById("btn");
                 el.classList.add('active-lang');             
 
                 const langAttr = el.getAttribute('language');
+
+                confirmlaang.textContent = confirmationForm[langAttr].confirmationheader;
+                namelang.textContent = confirmationForm[langAttr].forlanguageUSer;
+                passwordlang.textContent = confirmationForm[langAttr].passwordlang;
+                submitlang.textContent = confirmationForm[langAttr].confirmMiddlebtn;
+
+
                 contactme.textContent = footerArrays[langAttr].footecontactme;
                 footeremail.textContent = footerArrays[langAttr].footeremail;
                 footerphone.textContent = footerArrays[langAttr].footerphonenumber;
@@ -300,7 +313,21 @@ let btn = document.getElementById("btn");
 
             })
         });
-        
+        var confirmationForm = {
+            "russian" : {
+                "confirmationheader":"Подтверждение",
+                "forlanguageUSer": "Имя пользователя",
+                "passwordlang":"Пароль",
+                "confirmMiddlebtn":"Отправки"
+            },
+            "english" : {
+                "confirmationheader":"Confirmation",
+                "forlanguageUSer": "User-name",
+                "passwordlang":"Password",
+                "confirmMiddlebtn":"Submit"
+            }
+        }
+
         var footerArrays = {
             "russian":{
                 "footecontactme":"Наш контакт :",
